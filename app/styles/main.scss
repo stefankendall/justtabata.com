@@ -29,3 +29,16 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
     background-size: cover;
   }
 }
+
+@media (max-width: $screen-md-max) {
+  .feature:last-child {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .feature {
+    margin-top: 32px;
+  }
+}
+
