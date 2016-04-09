@@ -3,3 +3,29 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 @import "components-font-awesome/scss/font-awesome.scss";
 // endbower
+
+.screenshot {
+  width: 240px;
+  height: 426px;
+  margin: 0 auto;
+}
+
+.image1 {
+  background: url('../images/go.png') center center no-repeat;
+  background-size: cover;
+
+  &:hover, &:focus {
+    background: url('../images/rest.png') center center no-repeat;
+    background-size: cover;
+  }
+}
+
+.image2 {
+  background: url('../images/go.png') center center no-repeat;
+  background-size: cover;
+
+  &:hover, &:focus {
+    background: url('../images/rest.png') center center no-repeat;
+    background-size: cover;
+  }
+}
