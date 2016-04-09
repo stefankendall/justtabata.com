@@ -30,15 +30,17 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   }
 }
 
-@media (max-width: $screen-md-max) {
-  .feature:last-child {
-    margin-top: 32px;
-  }
+.ipad-image {
+  width: 100%;
 }
 
 @media (max-width: $screen-sm-max) {
   .feature {
     margin-top: 32px;
+  }
+
+  .ipad-image {
+    width: 50%;
   }
 }
 
@@ -58,7 +60,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
       background-size: contain;
       position: absolute;
       top: -4px;
+      left: -6px;
     }
   }
 }
-
