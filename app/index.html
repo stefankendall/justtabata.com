@@ -8,7 +8,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css"/>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -85,9 +85,20 @@
         <div class="col-md-4 col-sm-6 feature">
             <p>Clear sounds</p>
 
-            <audio controls>
-                <source src="http://example.com/mysong.aac">
-                <source src="mysong.oga">
+            <button class="btn btn-lg btn-block btn-success">Go</button>
+            <button class="btn btn-lg btn-block btn-danger">Rest</button>
+            <button class="btn btn-lg btn-block btn-primary">Done</button>
+
+            <audio id="go-sound">
+                <source src="sounds/go.mp3">
+            </audio>
+
+            <audio id="stop-sound">
+                <source src="sounds/stop.mp3">
+            </audio>
+
+            <audio id="done-sound">
+                <source src="sounds/done.mp3">
             </audio>
         </div>
         <div class="col-md-4 col-sm-12 feature">
