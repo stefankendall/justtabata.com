@@ -4,6 +4,10 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "components-font-awesome/scss/font-awesome.scss";
 // endbower
 
+#contact {
+  padding-bottom: 200px;
+}
+
 .screenshot {
   width: 240px;
   height: 426px;
