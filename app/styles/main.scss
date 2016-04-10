@@ -8,6 +8,14 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding-bottom: 200px;
 }
 
+.brand-heading {
+  text-shadow: 6px 6px 1px black;
+}
+
+.intro-text {
+  text-shadow: 2px 2px 1px black;
+}
+
 .screenshot {
   width: 240px;
   height: 426px;
@@ -66,5 +74,18 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
       top: -4px;
       left: -6px;
     }
+  }
+}
+
+.justtabata {
+  .download-section {
+    padding: 125px 0;
+    background-image: none;
+    background-color: #636363;
+    background: linear-gradient(black, #636363, #636363, #636363, #636363, black);
+  }
+
+  .content-section {
+    padding-top: 80px;
   }
 }
