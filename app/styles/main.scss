@@ -16,6 +16,20 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   text-shadow: 2px 2px 1px black;
 }
 
+.intro {
+  .btn {
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 16px 32px;
+
+    color: white;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+
 .screenshot {
   width: 240px;
   height: 426px;
